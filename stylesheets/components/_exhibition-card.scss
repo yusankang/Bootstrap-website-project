@@ -1,0 +1,13 @@
+
+.exh-card-img {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .exh-card-img{
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+    }
+}

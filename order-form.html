@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z&O Art Museum Friends</title>
+    <meta name="description" content="Zero and One, art museum, art gallery, cafe and shop">
+    <meta name="keywords" content="art, artists, art museum, art gallery, art exhibitions">
+    <meta property="og:title" content="Zero & One Art Museum">
+    <meta property="og:description" content="Art museum and exhibitions free admission">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="FB image">
+    <meta property="og:site_name" content="Z&O Art Museum">
+    <meta name="author" content="Z&O Art Museum">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.jpg">
+
+    <!--fonts-->
+    <!-- big-shoulders -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+    <!--stylesheets-->
+    <link rel="stylesheet" href="/stylesheets/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+        body{
+          font-family: 'Nunito', sans-serif;
+        }
+        .big-shoulders{
+          font-family: 'Big Shoulders Inline Text', cursive;
+        }
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+            <h1>
+                <a class="navbar-brand m-3 ps-2 ps-lg-5" href="/index.html"><img src="/images/art-museum/logo.png" alt="zero and one art museum logo"></a>
+            </h1>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="/cafe-shop.html">Cafe & Shop</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="./exhibitions.html">Exhibitions</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="/events-tours.html">Events & Tours</a>
+                </li>
+                <a href="/order-form.html" type="button" class="btn rounded-pill nav-item mx-1 mx-lg-3 p-2 px-lg-4 navbar-btn-mobile text-decoration-none btn-custom-active">Become a Friend</a>
+              </ul>          
+            </div>
+        </div>
+    </nav>
+    
+    <!-- banner -->
+    <div class="pt-5 pb-4 my-5" style="background-color: rgb(126, 174, 186);">
+        <h2 class="big-shoulders display-2 text-center text-white my-3">Friends of the Z&O Art Museum</h2>
+    </div>
+
+    <!--order-form-->
+    <div class="container d-flex justify-content-center">
+        <div class="bg-white p-3 p-lg-5 rounded-4 mb-4 shadow text-dark form-background">
+          <div class="row flex-md-row-reverse d-flex align-items-center">
+            <div class="col-md-6">
+              <p>Become a member of the Friends of the Z&O Art Museum. You will receive monthly newsletters of upcoming exhibitions and invitations to exclusive events, including private exhibition tours with artists and curators. Friends receive a discount of 15% off all purchases at the Z&O Cafe and Shop.</p>
+              <p class="m-md-0">Your contribution goes towards the funding of special projects and exhibitions. Thank you for supporting the Z&O Art Musuem!</p>
+            </div>
+            <div class="col-md-6">
+              <img src="./images/art-museum/membership-card.jpg" class="img-fluid" alt="membership card">
+            </div>
+          </div>
+            <h4 class="text-center fs-5 fw-bold text-dark my-5">
+                Please fill in your details
+            </h4>
+            <form action="#" class="row needs-validation" novalidate>
+                <div class="col-12 col-lg-6 mb-3">
+                    <label for="validation-first-name" class="form-label">Firstname</label>
+                    <input id="validation-first-name" type="text" class="form-control" aria-label="First name" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please type your firstname
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                    <label for="validatoin-last-name" class="form-label">Lastname</label>
+                    <input id="validation-last-name" type="text" class="form-control" aria-label="Last name" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please type your lastname
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="validation-phone" class="form-label">Contact phone number</label>
+                    <input type="tel" class="form-control" id="validation-phone" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please provide a contact phone number
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="validation-email" class="form-label">Email address</label>
+                    <input type="validation-email" class="form-control" id="email" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please provide a valid email address
+                    </div>
+                </div>
+                <label for="validation-address" class="form-label">Postal address</label>
+                <div class="col-12 col-lg-6 mb-2">
+                    <select id="validation-address" class="form-select" required>
+                        <option value="" disabled selected>Please select city</option>
+                        <option value="1">Townsville</option>
+                        <option value="2">New Townsville</option>
+                        <option value="3">Citipolitan</option>
+                    </select>
+                    <div class="invalid-feedback">Please select a city</div>
+                </div>
+                <div class="col-12 col-lg-6 mb-2">
+                    <select id="validation-address" class="form-select" required>
+                        <option value="" disabled selected>Please select district</option>
+                        <option value="1">Central Business District</option>
+                        <option value="2">North District</option>
+                        <option value="3">Greater District</option>
+                    </select>
+                    <div class="invalid-feedback">Please select a district</div>
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Your street address" required>
+                    <div class="invalid-feedback">Please provide your street address</div>
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="designer" class="form-label">Select your membership</label>
+                    <select id="designer" class="form-select" required>
+                        <option value="1">Annual member $250</option>
+                        <option value="2">Monthly member $25</option>
+                    </select>
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="payment" class="form-label">Payment method</label>
+                    <select id="payment" class="form-select" required>
+                        <option value="1">Credit card</option>
+                        <option value="2">Paypal</option>
+                        </select>
+                </div>
+                <fieldset class="row mb-3">
+                    <div class="col-12">
+                        <legend class="form-label fs-6">Let us know your interests</legend>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Visual Art</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Design & technology</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option4">
+                            <label class="form-check-label" for="inlineCheckbox2">Sculpture</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option5">
+                            <label class="form-check-label" for="inlineCheckbox2">Video & performance art</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option6">
+                            <label class="form-check-label" for="inlineCheckbox2">Events & festivals</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mb-5">
+                    <label for="comments" class="mb-2">Questions & comments</label>
+                    <textarea class="form-control" id="comments" rows="4"></textarea>
+                </div>
+                <h4 class="fs-5 fw-bold mb-3">Payment total: $250</h4>
+                <p class="mb-5">Your membership will become valid on the date of payment. Memberships automatically renew on expiry, you will receive an email notification before the renewal is charged. If you would like to cancel your membership, please follow the cancellation link in the renewal email.</p>
+                <div class="col-12 d-flex justify-content-center mb-3">
+                    <button type="submit" class="btn btn-custom rounded-pill px-4 p-2">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr class="mx-2 mx-md-3">
+
+    <!--footer-->
+    <footer>
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-7">
+              <h4 class="text-center text-md-start fs-5">Contact Us</h4>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th class="align-middle">General Enquiries</th>
+                    <td>(02) 1234 4567<br>
+                      info@zoartmuseum.com
+                    </td>
+    
+                  </tr>
+                  <tr>
+                    <th class="align-middle">Donations</th>
+                    <td>(02) 2468 8642<br>
+                      donations@zoartmuseum.com
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="align-middle">Cafe & Shop</th>
+                    <td>(02) 9876 6543<br>
+                      cafeshop@zoartmuseum.com
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-5 mt-5 d-flex flex-column align-items-center align-items-md-start">
+              <h4 class="fs-5 mb-3 text-md-start">Sign Up to the Z&O Newsletter</h4>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="your email address" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div style="background-color: rgb(126, 174, 186);">
+          <p class="mb-0 text-center text-white py-4">Copyright © 2023 Z&O Art Museum. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    //Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+        form.classList.add('was-validated')
+      }, false)
+    })
+    })()
+    </script>
+</body>
+</html>
